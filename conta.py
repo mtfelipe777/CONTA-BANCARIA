@@ -8,6 +8,6 @@ class Conta:
         self.entrada = int(input("Quanto você quer adicionar?"))
         self.saldo += self.entrada
     def calcula_Rendimento(self):
-        self.saldo * 0.1
+        self.saldo *= 0.1
     def imprimir_dados(self):
         print(self.saldo)
