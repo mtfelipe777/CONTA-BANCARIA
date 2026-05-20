@@ -3,7 +3,7 @@ class Conta:
         self.saldo = 0
     def saca(self):
         self.retirada = int(input("Informe quanto você quer retirar: "))
-        self.saldo - self.retirada
+        self.saldo =- self.retirada
     def deposita(self):
         self.entrada = int(input("Quanto você quer adicionar?"))
         self.saldo =+ self.entrada
