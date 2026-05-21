@@ -7,7 +7,9 @@ while True:
     print("1.Saca;")
     print("2.Deposita;")
     print("3.Calcula Rendimento;")
-    print("4.Imprimir Dados.")
+    print("4.Imprimir Dados;")
+    print("5.Mostrar Rendimento.")
+    print()
     acao = int(input("Informe a opção: "))
 
     if acao == 1:
@@ -18,5 +20,7 @@ while True:
         acesso.calcula_Rendimento()
     elif acao == 4:
         acesso.imprimir_dados()
+    elif acao == 5:
+        acesso.imprimir_rendimento()
     else:
         break
